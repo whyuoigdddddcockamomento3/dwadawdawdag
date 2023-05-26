@@ -1,6 +1,6 @@
 local lplr = game:GetService("Players").LocalPlayer
 local playersService = game:GetService("Players")
-local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/n1san1/yesyes/main/yea"))()
+local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/whyuoigdddddcockamomento3/dawdawd/main/ooww"))()
 local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/n1san1/dawge/main/dd"))()
 local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
 
