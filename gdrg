@@ -1,8 +1,8 @@
 local lplr = game:GetService("Players").LocalPlayer
 local playersService = game:GetService("Players")
 local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/whyuoigdddddcockamomento3/dawdawd/main/ooww"))()
-local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/n1san1/dawge/main/dd"))()
-local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/Libraries/entityHandler.lua"))()
+local FunctionsLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/whyuoigdddddcockamomento3/dwadawda/main/BD"))()
+local entityLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/whyuoigdddddcockamomento3/cda/main/m"))()
 
 local funcs = {}
 function funcs:kill()
@@ -271,14 +271,14 @@ end
 spawn(function()
 	for i,v in pairs(game:GetService("Players"):GetChildren()) do
 	if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("{DETECTED} OWNER WAS IN YOU GAME")
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_R7SK8TRXPARC2", "All")
+			sysmsg("{DETECTED} OWNER WAS IN YOUR GAME")
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_n1san1", "All")
 		end
 	end
 	game:GetService("Players").ChildAdded:Connect(function(v)
 		if table.find(whitelist.Owners,v.UserId) then
-			sysmsg("[DETECTED] OWNER WAS IN YOU GAME!")
-			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_R7SK8TRXPARC", "All")
+			sysmsg("[DETECTED] OWNER WAS IN YOUR GAME!")
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer("DETECTED_n1san1", "All")
 		end
 	end)
 end)
